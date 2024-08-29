@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <!-- Link Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- link File CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contanier">
+        <div class="hero">
+            <nav>
+                <img src="assets/logo.png">
+
+                <div class="nav-links">
+                    <a class="active" href="#">home</a>
+                    <a href="#about">about</a>
+                    <a href="#services">services</a>
+                    <a href="#portfolio">portfolio</a>
+                    <a href="#contact">contact</a>
+                </div>
+            </nav>
+
+            <div class="content">
+                <div class="div-text">
+                    <h1>Hi, I'am Patricia</h1>
+                    <h4>A Frontend Web Developer</h4>
+                    <p>I am a passionate Frontend Web Developer with a love for creating innovative solutions that make a meaningful impact.</p>
+                        <a href="assets/Quiatchon_Creative Resume.pdf" class="btn">Download CV</a>
+                </div>
+
+                <div class="div-img">
+                    <img src="assets/home.png" alt="">
+                </div>
+            </div>
+
+            <div class="soc-link">
+                <a href="https://www.facebook.com/patricia.quiatchon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/Shobee29"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/_patatoquits/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/PatriciaQuiatchon"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/patricia-mae-quiatchon-049674316/"><i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/p3.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>A student of Holy Angel University and I am taking the course of
+                        Bachelor of Science in Information Technology with a speacilization in
+                        Web Development.I bring creativity, dedication, and a commitment to excellence to every project I undertake.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('info')">Personal Info</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('transcripts')">Transcripts</p>
+                        <p class="tab-links" onclick="opentab('professional affiliations')">Professional Affiliations</p>
+                        <p class="tab-links" onclick="opentab('awards')">Honors/Awards</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="info">
+                        <ul>
+                            <li><span>> Name: </span> Patricia Mae Q. Quiatchon</li>
+                            <li><span>> Age: </span> 21</li>
+                            <li><span>> Course: </span> Bachelor of Science in Information Technology major in Web Development</li>
+                            <li><span>> Email: </span> patriciaquiatchon05@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><h3>Python</h3>
+                                <span class="bar"><span class="python"></span></span>
+                            </li>
+                            <li><h3>Java</h3>
+                                <span class="bar"><span class="java"></span></span>
+                            </li>
+                            <li><h3>Html</h3>
+                                <span class="bar"><span class="html"></span></span>
+                            </li>
+                            <li><h3>Css</h3>
+                                <span class="bar"><span class="css"></span></span>
+                            </li>
+                            <li><h3>Javascript</h3>
+                                <span class="bar"><span class="javascript"></span></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="transcripts">
+                        <ul>
+                            <li><a href="assets/Grades.pdf" class="btn">Image</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="professional affiliations">
+                        <ul>
+                            <li><a href="assets/Certficates.pdf" class="btn">Image</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="awards">
+                        <ul>
+                            <li><a href="assets/awards.pdf" class="btn">Image</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>It entails designing the visual components and structure of a website, 
+                        while coding focuses on turning these designs into an operational website 
+                        using programming languages such as HTML, CSS, and JavaScript.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>UI Design</h2>
+                    <p>procedure for developing and producing a website's functional design, structure, and visual layout. 
+                        It includes many different fields and abilities, including as content development, coding, visual design, 
+                        user interface (UI) design, and user experience (UX) design.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Portfolio -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/project1.png" >
+                    <div class="layer">
+                        <h3>Amazin Glazin</h3>
+                        <p>This website is for those people who loves sweets with love. We now spend our days 
+                            making our clients happy by providing them with high-quality baked goods, first-rate customer service,
+                            and a sense of fun. They claim that we provide them joy.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/project2.png" >
+                    <div class="layer">
+                        <h3>The 1901 Cafe</h3>
+                        <p>The 1901 Cafe is the first countryside-inspired coffee shop in the province of Pampanga, established by Sophia Matawaran. 
+                              The “19” stands for her age when she started this venture and the “01” represents as the first small step; it reminds that 
+                              everything begins with a fresh slate.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/project3.png" >
+                    <div class="layer">
+                        <h3>PD Portfolio</h3>
+                        <p>A collaboration portfolio with my classmate Denise Santos</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/project4.png" >
+                    <div class="layer">
+                        <h3>Heavenly Glow Salon</h3>
+                        <p>Discover the epitome of beauty and wellness at Heavenly Glow Salon. 
+                            From cutting-edge hair services to soothing hair spa treatments, we 
+                            offer it all. Experience your best self with us!</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/project5.png" >
+                    <div class="layer">
+                        <h3>House of Petals</h3>
+                        <p>Offer fresh flowers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="socials">
+                    <h1 class="title-contact">Contact Me</h1>
+                    <p><br><i class="fa-solid fa-paper-plane"></i> Contact @Patricia</p>
+                    <p><br><i class="fa-solid fa-phone"></i> +639694982826 </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/patricia.quiatchon"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_patatoquits/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/Shobee29"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/PatriciaQuiatchon"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/patricia-mae-quiatchon-049674316/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Patricia <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function clossmenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
